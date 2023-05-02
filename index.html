@@ -12,10 +12,13 @@
 </head>
 
 <body class="text-bs-light-bg-subtle ">
-    <header class="container ">
+    <header class="container-fluid p-0 ">
         <nav class="navbar navbar-expand-lg bg-body-tertiary ">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">Forgea</a>
+                <a class="navbar-brand" href="#">
+                    <img src="images/icone.jpeg" alt="Bootstrap" width="30" height="24">
+                </a>
+                <a class="navbar-brand" href="index.html">FORGEA</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -28,37 +31,62 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">Nos réalisations</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
-                        </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <main>
+
+    <main class="container">
         <section class="row p-4">
             <div class=" col-12 text-center">
-                <img class="img-fluid" src="./images/forgeron_du_damas_w2000.jpg" width="device-width" alt="Forge du Damas">
+                <h1 class="my-4">Coutellerie FORGEA </h1>
+                <img class="img-fluid mb-4" src="./images/forgeron_du_damas_w2000.jpg" width="device-width"
+                    alt="Forge du Damas">
+                <h3>Vous en revez ? On le fait. </h3>
             </div>
         </section>
-        <section class="row m-4 --bs-dark-text-emphasis">
+        <section class="row m-4 mt-1 --bs-dark-text-emphasis">
             <div class="col-12 col-lg-6 p-4">
                 <h3>La forge</h3>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint a adipisci
-                     consectetur quisquam doloremque quod consequatur earum, nesciunt possimus
-                      modi aspernatur commodi id cum ex illo amet. Expedita, eum id!</p>
+                    consectetur quisquam doloremque quod consequatur earum, nesciunt possimus
+                    modi aspernatur commodi id cum ex illo amet. Expedita, eum id!</p>
             </div>
             <div class="col-12 col-lg-6 p-4">
-                <h3>La forge</h3>
+                <h3>Le forgeron</h3>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint a adipisci
-                     consectetur quisquam doloremque quod consequatur earum, nesciunt possimus
-                      modi aspernatur commodi id cum ex illo amet. Expedita, eum id!</p>
+                    consectetur quisquam doloremque quod consequatur earum, nesciunt possimus
+                    modi aspernatur commodi id cum ex illo amet. Expedita, eum id!</p>
             </div>
 
         </section>
+        <section class="row m-4 text-center justify-content-between">
+            <span class="border border-light"></span>
+            <h3 class="my-5">Nos aciers</h3>
+            <div class="col-12 col-lg-6 ">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/acier-de-coutellerie-carbone-dnh7-xc75-1075-1.1248-1_002.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">XC75</h5>
+                        <p class="card-text">Fabriqué en France par Les Aciéries de Bonpertuis,l'acier carbone XC 75 est une des nuances les plus utilisées en coutellerie. </p>
+                    </div>
+                </div>             
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/acier-crucible-cru-wear_002.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Acier CPM-CruWear</h5>
+                        <p class="card-text">CPM Cru-Wear, un acier carbone haut-de-gamme pour la coutellerie.</p>
+                    </div>
+                </div>             
+            </div>
+        </section>
     </main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
